@@ -1,0 +1,13 @@
+# Linter Options
+options:
+  merge-default-rules: true
+# File Options
+files:
+  include: '**/src/main/sass/**/*.scss'
+rules:
+  brace-style:
+    - 2
+    - allow-single-line: false
+  class-name-format:
+    - 2
+    - convention: ^[a-z]+[_|\-]?[_\-a-z]* # to be revisited later
